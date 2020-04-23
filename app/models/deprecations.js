@@ -1,5 +1,25 @@
 export const DEPRECATIONS = Object.freeze([
   {
+    version: 2.14,
+    title: "Ember.MODEL_FACTORY_INJECTIONS",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.14,
+    title: "eventManager property and canDispatchToEventManager property",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.16,
+    title: "Private property content that aliases the model property",
+    link: "https://blog.emberjs.com/2017/10/11/ember-2-16-released.html",
+  },
+  {
+    version: 2.18,
+    title: "targetObject",
+    link: "https://blog.emberjs.com/2018/01/01/ember-2-18-released.html",
+  },
+  {
     version: 3.01,
     title: "Calling array.get('@each')",
     link: "https://blog.emberjs.com/2018/04/13/ember-3-1-released.html",

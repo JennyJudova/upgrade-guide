@@ -1,5 +1,15 @@
 export const FEATURES = Object.freeze([
   {
+    version: 2.15,
+    title: "Initial support for the public router service API",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
+    version: 2.15,
+    title: "Adds the argument model to the {{mount}} engine helper",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
     version: 3.0,
     title: "Updates to the Testing Defaults",
     link: "https://blog.emberjs.com/2018/02/14/ember-3-0-released.html",

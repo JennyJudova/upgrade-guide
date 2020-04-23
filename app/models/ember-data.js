@@ -1,5 +1,23 @@
 export const ED_FEATURES = Object.freeze([
   {
+    version: 2.14,
+    feature: true,
+    title: "Deferred serializer lookup",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.14,
+    feature: true,
+    title: "Lazy Relationships",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.14,
+    feature: true,
+    title: "File-size Improvements",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
     version: 3.02,
     feature: true,
     title: "Lazy Relationship Payloads",
@@ -55,6 +73,18 @@ export const ED_FEATURES = Object.freeze([
   },
 ]);
 export const ED_DEPRECATIONS = Object.freeze([
+  {
+    version: 2.14,
+    deprecation: true,
+    title: "didUpdateAll and buildInternalModel",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.18,
+    deprecation: true,
+    title: "Support for 'production-like' values of EMBER_ENV",
+    link: "https://blog.emberjs.com/2018/01/01/ember-2-18-released.html",
+  },
   {
     version: 3.01,
     deprecation: true,

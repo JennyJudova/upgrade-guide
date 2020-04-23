@@ -1,5 +1,77 @@
 export const EC_FEATURES = Object.freeze([
   {
+    version: 2.14,
+    feature: true,
+    title: "Specifying a blueprint for a new app",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.14,
+    feature: true,
+    title: "NPM 5 and Node 8 support",
+    link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
+  },
+  {
+    version: 2.15,
+    feature: true,
+    title: "Other Notable Changes",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
+    version: 2.15,
+    feature: true,
+    title: "Improved Error Messages",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
+    version: 2.15,
+    feature: true,
+    title: "Chrome by default",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
+    version: 2.15,
+    feature: true,
+    title: "Node.js 8 Support",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
+    version: 2.15,
+    feature: true,
+    title: "app.import files within node_modules",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
+  {
+    version: 2.16,
+    feature: true,
+    title: "Project configuration is cached as a performance optimization",
+    link: "https://blog.emberjs.com/2017/10/11/ember-2-16-released.html",
+  },
+  {
+    version: 2.16,
+    feature: true,
+    title: "Addon API for Custom Transforms",
+    link: "https://blog.emberjs.com/2017/10/11/ember-2-16-released.html",
+  },
+  {
+    version: 2.16,
+    feature: true,
+    title: "ember install supports scoped npm packages",
+    link: "https://blog.emberjs.com/2017/10/11/ember-2-16-released.html",
+  },
+  {
+    version: 2.16,
+    feature: true,
+    title: "Support for the Ember CLI strategies RFC",
+    link: "https://blog.emberjs.com/2017/10/11/ember-2-16-released.html",
+  },
+  {
+    version: 2.17,
+    feature: true,
+    title: "ember test --server",
+    link: "https://blog.emberjs.com/2017/11/20/ember-2-17-released.html",
+  },
+  {
     version: 3.02,
     feature: true,
     title: "qunit-dom",
@@ -97,6 +169,12 @@ export const EC_FEATURES = Object.freeze([
   },
 ]);
 export const EC_DEPRECATIONS = Object.freeze([
+  {
+    version: 2.15,
+    deprecation: true,
+    title: "PhantomJS no longer actively maintained",
+    link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",
+  },
   {
     version: 3.02,
     deprecation: true,
