@@ -1,5 +1,10 @@
 export const FEATURES = Object.freeze([
   {
+    version: 2.12,
+    title: "factoryFor API",
+    link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",
+  },
+  {
     version: 2.15,
     title: "Initial support for the public router service API",
     link: "https://blog.emberjs.com/2017/09/01/ember-2-15-released.html",

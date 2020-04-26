@@ -1,5 +1,35 @@
 export const EC_FEATURES = Object.freeze([
   {
+    version: 2.12,
+    feature: true,
+    title: "Switch to ESLint",
+    link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",
+  },
+  {
+    version: 2.13,
+    feature: true,
+    title: "Add support for using yarn",
+    link: "https://blog.emberjs.com/2017/04/29/ember-2-13-released.html",
+  },
+  {
+    version: 2.13,
+    feature: true,
+    title: "Enable Instrumentation Hooks",
+    link: "https://blog.emberjs.com/2017/04/29/ember-2-13-released.html",
+  },
+  {
+    version: 2.13,
+    feature: true,
+    title: "Targets",
+    link: "https://blog.emberjs.com/2017/04/29/ember-2-13-released.html",
+  },
+  {
+    version: 2.13,
+    feature: true,
+    title: "Babel 6",
+    link: "https://blog.emberjs.com/2017/04/29/ember-2-13-released.html",
+  },
+  {
     version: 2.14,
     feature: true,
     title: "Specifying a blueprint for a new app",
@@ -169,6 +199,12 @@ export const EC_FEATURES = Object.freeze([
   },
 ]);
 export const EC_DEPRECATIONS = Object.freeze([
+  {
+    version: 2.13,
+    deprecation: true,
+    title: "bower.json",
+    link: "https://blog.emberjs.com/2017/04/29/ember-2-13-released.html",
+  },
   {
     version: 2.15,
     deprecation: true,

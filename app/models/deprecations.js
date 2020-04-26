@@ -1,5 +1,15 @@
 export const DEPRECATIONS = Object.freeze([
   {
+    version: 2.12,
+    title: "Ember.K",
+    link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",
+  },
+  {
+    version: 2.12,
+    title: "didInitAttrs, didReceiveAttrs, and didUpdateAttrs",
+    link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",
+  },
+  {
     version: 2.14,
     title: "Ember.MODEL_FACTORY_INJECTIONS",
     link: "https://blog.emberjs.com/2017/07/06/ember-2-14-released.html",
