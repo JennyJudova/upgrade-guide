@@ -1,5 +1,41 @@
 export const EC_FEATURES = Object.freeze([
   {
+    version: 2.1,
+    feature: true,
+    title: "Sorting of package.json",
+    link: "https://blog.emberjs.com/2016/11/30/ember-2-10-released.html",
+  },
+  {
+    version: 2.1,
+    feature: true,
+    title: "Concatenation",
+    link: "https://blog.emberjs.com/2016/11/30/ember-2-10-released.html",
+  },
+  {
+    version: 2.1,
+    feature: true,
+    title: "npm Upgrade",
+    link: "https://blog.emberjs.com/2016/11/30/ember-2-10-released.html",
+  },
+  {
+    version: 2.1,
+    feature: true,
+    title: "Testing Addons",
+    link: "https://blog.emberjs.com/2016/11/30/ember-2-10-released.html",
+  },
+  {
+    version: 2.11,
+    feature: true,
+    title: "Ember No Longer Supplied Via bower",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
+    version: 2.11,
+    feature: true,
+    title: "Updated ember-welcome-page",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
     version: 2.12,
     feature: true,
     title: "Switch to ESLint",

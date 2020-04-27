@@ -1,5 +1,20 @@
 export const FEATURES = Object.freeze([
   {
+    version: 2.1,
+    title: "Glimmer 2",
+    link: "https://blog.emberjs.com/2016/11/30/ember-2-10-released.html",
+  },
+  {
+    version: 2.11,
+    title: "render helper (i.e. {{render 'foo'}})",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
+    version: 2.11,
+    title: "Component#renderToElement API",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
     version: 2.12,
     title: "factoryFor API",
     link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",

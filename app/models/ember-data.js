@@ -1,8 +1,14 @@
 export const ED_FEATURES = Object.freeze([
   {
+    version: 2.11,
+    feature: true,
+    title: "HasMany Computed Property Keys",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
     version: 2.12,
     feature: true,
-    title: "A new serializeId() method ",
+    title: "A new serializeId() method",
     link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",
   },
   {
@@ -85,6 +91,24 @@ export const ED_FEATURES = Object.freeze([
   },
 ]);
 export const ED_DEPRECATIONS = Object.freeze([
+  {
+    version: 2.11,
+    deprecation: true,
+    title: "store#lookupAdapter() and store#lookupSerializer()",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
+    version: 2.11,
+    deprecation: true,
+    title: "store#serialize()",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
+  {
+    version: 2.11,
+    deprecation: true,
+    title: "store#recordIsLoaded()",
+    link: "https://blog.emberjs.com/2017/01/23/ember-2-11-released.html",
+  },
   {
     version: 2.13,
     deprecation: true,
