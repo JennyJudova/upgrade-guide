@@ -1,5 +1,39 @@
 export const DEPRECATIONS = Object.freeze([
   {
+    version: 2.04,
+    title: "ember-legacy-views and ember-legacy-controllers",
+    link: "https://blog.emberjs.com/2016/04/11/ember-2-5-released.html",
+  },
+  {
+    version: 2.04,
+    title: "{{#render}} helper in block form",
+    link: "https://blog.emberjs.com/2016/04/11/ember-2-5-released.html",
+  },
+  {
+    version: 2.06,
+    title: "didInitAttrs",
+    link:
+      "https://blog.emberjs.com/2016/06/08/ember-2-6-and-2-7-beta-released.html",
+  },
+  {
+    version: 2.06,
+    title: "Model argument to {{render}}",
+    link:
+      "https://blog.emberjs.com/2016/06/08/ember-2-6-and-2-7-beta-released.html",
+  },
+  {
+    version: 2.07,
+    title: "Ember.Backburner",
+    link:
+      "https://blog.emberjs.com/2016/07/25/ember-2-7-and-2-8-beta-released.html",
+  },
+  {
+    version: 2.07,
+    title: "Ember.Binding",
+    link:
+      "https://blog.emberjs.com/2016/07/25/ember-2-7-and-2-8-beta-released.html",
+  },
+  {
     version: 2.12,
     title: "Ember.K",
     link: "https://blog.emberjs.com/2017/03/19/ember-2-12-released.html",

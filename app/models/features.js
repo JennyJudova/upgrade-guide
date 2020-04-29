@@ -1,5 +1,75 @@
 export const FEATURES = Object.freeze([
   {
+    version: 2.03,
+    title: "visit API",
+    link: "https://blog.emberjs.com/2016/01/15/ember-2-3-released.html",
+  },
+  {
+    version: 2.03,
+    title: "Hash Helper",
+    link: "https://blog.emberjs.com/2016/01/15/ember-2-3-released.html",
+  },
+  {
+    version: 2.03,
+    title: "Contextual Components",
+    link: "https://blog.emberjs.com/2016/01/15/ember-2-3-released.html",
+  },
+  {
+    version: 2.03,
+    title: "Introducing Owners and Deprecating Containers",
+    link: "https://blog.emberjs.com/2016/01/15/ember-2-3-released.html",
+  },
+  {
+    version: 2.03,
+    title: "Removing the jQuery version assertion",
+    link: "https://blog.emberjs.com/2016/01/15/ember-2-3-released.html",
+  },
+  {
+    version: 2.05,
+    title: "Native Event Test Helpers",
+    link: "https://blog.emberjs.com/2016/04/11/ember-2-5-released.html",
+  },
+  {
+    version: 2.05,
+    title: "Local Lookup Compatibility",
+    link: "https://blog.emberjs.com/2016/04/11/ember-2-5-released.html",
+  },
+  {
+    version: 2.05,
+    title: "Ember.assign",
+    link: "https://blog.emberjs.com/2016/04/11/ember-2-5-released.html",
+  },
+  {
+    version: 2.07,
+    title: "Ember.computed.uniqBy",
+    link:
+      "https://blog.emberjs.com/2016/07/25/ember-2-7-and-2-8-beta-released.html",
+  },
+  {
+    version: 2.08,
+    title: "Engines",
+    link:
+      "https://blog.emberjs.com/2016/09/08/ember-2-8-and-2-9-beta-released.html",
+  },
+  {
+    version: 2.08,
+    title: "Enumerable#includes and Array#includes",
+    link:
+      "https://blog.emberjs.com/2016/09/08/ember-2-8-and-2-9-beta-released.html",
+  },
+  {
+    version: 2.08,
+    title: "Ember.String.isHTMLSafe",
+    link:
+      "https://blog.emberjs.com/2016/09/08/ember-2-8-and-2-9-beta-released.html",
+  },
+  {
+    version: 2.08,
+    title: "Ember.Test.checkWaiters",
+    link:
+      "https://blog.emberjs.com/2016/09/08/ember-2-8-and-2-9-beta-released.html",
+  },
+  {
     version: 2.1,
     title: "Glimmer 2",
     link: "https://blog.emberjs.com/2016/11/30/ember-2-10-released.html",

@@ -1,5 +1,65 @@
 export const ED_FEATURES = Object.freeze([
   {
+    version: 2.04,
+    feature: true,
+    title: "Friendly Errors",
+    link: "https://blog.emberjs.com/2016/03/13/ember-data-2-4-released.html",
+  },
+  {
+    version: 2.04,
+    feature: true,
+    title: "Importing Modules",
+    link: "https://blog.emberjs.com/2016/03/13/ember-data-2-4-released.html",
+  },
+  {
+    version: 2.04,
+    feature: true,
+    title: "Fastboot Support",
+    link: "https://blog.emberjs.com/2016/03/13/ember-data-2-4-released.html",
+  },
+  {
+    version: 2.05,
+    feature: true,
+    title: "ds-finder-include",
+    link: "https://blog.emberjs.com/2016/05/03/ember-data-2-5-released.html",
+  },
+  {
+    version: 2.05,
+    feature: true,
+    title: "ds-references",
+    link: "https://blog.emberjs.com/2016/05/03/ember-data-2-5-released.html",
+  },
+  {
+    version: 2.05,
+    feature: true,
+    title: "ds-transform-pass-options",
+    link: "https://blog.emberjs.com/2016/05/03/ember-data-2-5-released.html",
+  },
+  {
+    version: 2.06,
+    feature: true,
+    title: "ds-serialize-ids-and-types",
+    link: "https://blog.emberjs.com/2016/05/03/ember-data-2-5-released.html",
+  },
+  {
+    version: 2.07,
+    feature: true,
+    title: "ds-boolean-transform-allow-null",
+    link: "https://blog.emberjs.com/2016/07/25/ember-data-2-7-released.html",
+  },
+  {
+    version: 2.07,
+    feature: true,
+    title: "ds-links-in-record-array",
+    link: "https://blog.emberjs.com/2016/07/25/ember-data-2-7-released.html",
+  },
+  {
+    version: 2.08,
+    feature: true,
+    title: "ds-improved-ajax",
+    link: "https://blog.emberjs.com/2016/07/25/ember-data-2-7-released.html",
+  },
+  {
     version: 2.11,
     feature: true,
     title: "HasMany Computed Property Keys",
