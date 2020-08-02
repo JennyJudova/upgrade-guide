@@ -5,8 +5,6 @@ import { hbs } from 'ember-cli-htmlbars';
 
 module('Integration | Helper | features-counter', function (hooks) {
   setupRenderingTest(hooks);
-
-  // Replace this with your real tests.
   test('it renders', async function (assert) {
     this.set('datum', {
       id: '3.6',
@@ -35,13 +33,16 @@ module('Integration | Helper | features-counter', function (hooks) {
               ],
             },
           },
+          id: '3.6',
         },
       ],
     });
     this.set('toVersion', '3.7');
     this.set('fromVersion', '3.5');
 
-    await render(hbs`{{features-counter this.datum this.toVersion this.fromVersion}}`);
+    await render(
+      hbs`{{features-counter this.datum this.toVersion this.fromVersion}}`
+    );
 
     assert.equal(this.element.textContent.trim(), '3');
   });
